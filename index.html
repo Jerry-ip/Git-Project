@@ -2,17 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Professional</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="login-box">
-        <h2>Login</h2>
-        <form>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
+    <div class="container">
+        <div class="login-card">
+            <div class="logo">
+                <div class="logo-circle">G</div>
+                <h1>Welcome Back</h1>
+                <p>Please enter your details to sign in</p>
+            </div>
+
+            <form>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="options">
+                    <label class="remember">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn-primary">Sign In</button>
+            </form>
+
+            <div class="footer">
+                <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
